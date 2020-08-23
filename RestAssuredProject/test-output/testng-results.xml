@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="33" passed="32">
+  <reporter-output>
+    <line>
+      <![CDATA[RestAssured TestCases Class Started.]]>
+    </line>
+    <line>
+      <![CDATA[checkContentEncoding Test started.]]>
+    </line>
+    <line>
+      <![CDATA[checkContentEncoding Test passed.]]>
+    </line>
+    <line>
+      <![CDATA[checkContentLength Test started.]]>
+    </line>
+    <line>
+      <![CDATA[checkContentLength Test *Failed* java.lang.NumberFormatException: null]]>
+    </line>
+    <line>
+      <![CDATA[checkContentType Test started.]]>
+    </line>
+    <line>
+      <![CDATA[checkContentType Test passed.]]>
+    </line>
+    <line>
+      <![CDATA[checkCookies Test started.]]>
+    </line>
+    <line>
+      <![CDATA[checkCookies Test passed.]]>
+    </line>
+    <line>
+      <![CDATA[checkResponseBody Test started.]]>
+    </line>
+    <line>
+      <![CDATA[checkResponseBody Test passed.]]>
+    </line>
+    <line>
+      <![CDATA[checkResponseTime Test started.]]>
+    </line>
+    <line>
+      <![CDATA[checkResponseTime Test passed.]]>
+    </line>
+    <line>
+      <![CDATA[checkServerType Test started.]]>
+    </line>
+    <line>
+      <![CDATA[checkServerType Test passed.]]>
+    </line>
+    <line>
+      <![CDATA[checkStatusCode Test started.]]>
+    </line>
+    <line>
+      <![CDATA[checkStatusCode Test passed.]]>
+    </line>
+    <line>
+      <![CDATA[checkStatusLine Test started.]]>
+    </line>
+    <line>
+      <![CDATA[checkStatusLine Test passed.]]>
+    </line>
+    <line>
+      <![CDATA[checkContentLength Test started.]]>
+    </line>
+    <line>
+      <![CDATA[checkContentLength Test passed.]]>
+    </line>
+    <line>
+      <![CDATA[checkContentType Test started.]]>
+    </line>
+    <line>
+      <![CDATA[checkContentType Test passed.]]>
+    </line>
+    <line>
+      <![CDATA[checkResponseBody Test started.]]>
+    </line>
+    <line>
+      <![CDATA[checkResponseBody Test passed.]]>
+    </line>
+    <line>
+      <![CDATA[checkStatusCode Test started.]]>
+    </line>
+    <line>
+      <![CDATA[checkStatusCode Test passed.]]>
+    </line>
+    <line>
+      <![CDATA[checkStatusLine Test started.]]>
+    </line>
+    <line>
+      <![CDATA[checkStatusLine Test passed.]]>
+    </line>
+    <line>
+      <![CDATA[getResponseTime Test started.]]>
+    </line>
+    <line>
+      <![CDATA[getResponseTime Test passed.]]>
+    </line>
+    <line>
+      <![CDATA[checkContentLength Test started.]]>
+    </line>
+    <line>
+      <![CDATA[checkContentLength Test passed.]]>
+    </line>
+    <line>
+      <![CDATA[checkContentType Test started.]]>
+    </line>
+    <line>
+      <![CDATA[checkContentType Test passed.]]>
+    </line>
+    <line>
+      <![CDATA[checkResponseBody Test started.]]>
+    </line>
+    <line>
+      <![CDATA[checkResponseBody Test passed.]]>
+    </line>
+    <line>
+      <![CDATA[checkResponseTime Test started.]]>
+    </line>
+    <line>
+      <![CDATA[checkResponseTime Test passed.]]>
+    </line>
+    <line>
+      <![CDATA[checkStatusCode Test started.]]>
+    </line>
+    <line>
+      <![CDATA[checkStatusCode Test passed.]]>
+    </line>
+    <line>
+      <![CDATA[checkStatusLine Test started.]]>
+    </line>
+    <line>
+      <![CDATA[checkStatusLine Test passed.]]>
+    </line>
+    <line>
+      <![CDATA[checkContentLength Test started.]]>
+    </line>
+    <line>
+      <![CDATA[checkContentLength Test passed.]]>
+    </line>
+    <line>
+      <![CDATA[checkContentType Test started.]]>
+    </line>
+    <line>
+      <![CDATA[checkContentType Test passed.]]>
+    </line>
+    <line>
+      <![CDATA[checkResponseBody Test started.]]>
+    </line>
+    <line>
+      <![CDATA[checkResponseBody Test passed.]]>
+    </line>
+    <line>
+      <![CDATA[checkResponseTime Test started.]]>
+    </line>
+    <line>
+      <![CDATA[checkResponseTime Test passed.]]>
+    </line>
+    <line>
+      <![CDATA[checkStatusCode Test started.]]>
+    </line>
+    <line>
+      <![CDATA[checkStatusCode Test passed.]]>
+    </line>
+    <line>
+      <![CDATA[checkStatusLine Test started.]]>
+    </line>
+    <line>
+      <![CDATA[checkStatusLine Test passed.]]>
+    </line>
+    <line>
+      <![CDATA[checkContentLength Test started.]]>
+    </line>
+    <line>
+      <![CDATA[checkContentLength Test passed.]]>
+    </line>
+    <line>
+      <![CDATA[checkContentType Test started.]]>
+    </line>
+    <line>
+      <![CDATA[checkContentType Test passed.]]>
+    </line>
+    <line>
+      <![CDATA[checkResponseBody Test started.]]>
+    </line>
+    <line>
+      <![CDATA[checkResponseBody Test passed.]]>
+    </line>
+    <line>
+      <![CDATA[checkStatusCode Test started.]]>
+    </line>
+    <line>
+      <![CDATA[checkStatusCode Test passed.]]>
+    </line>
+    <line>
+      <![CDATA[checkStatusLine Test started.]]>
+    </line>
+    <line>
+      <![CDATA[checkStatusLine Test passed.]]>
+    </line>
+    <line>
+      <![CDATA[getResponseTime Test started.]]>
+    </line>
+    <line>
+      <![CDATA[getResponseTime Test passed.]]>
+    </line>
+  </reporter-output>
+  <suite name="RestAssured Suite" duration-ms="15746" started-at="2020-08-23T11:22:35Z" finished-at="2020-08-23T11:22:51Z">
+    <groups>
+    </groups>
+    <test name="RestAssured TestCases" duration-ms="15746" started-at="2020-08-23T11:22:35Z" finished-at="2020-08-23T11:22:51Z">
+      <class name="com.employeeapi.testCases.TC003_PUT_Update_Details">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.employeeapi.testCases.TC003_PUT_Update_Details@e25b2fe]" name="setup" is-config="true" duration-ms="4" started-at="2020-08-23T11:22:44Z" finished-at="2020-08-23T11:22:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="postDetails()[pri:0, instance:com.employeeapi.testCases.TC003_PUT_Update_Details@e25b2fe]" name="postDetails" is-config="true" duration-ms="3038" started-at="2020-08-23T11:22:44Z" finished-at="2020-08-23T11:22:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postDetails -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:com.employeeapi.testCases.TC003_PUT_Update_Details@e25b2fe]" name="checkContentLength" duration-ms="4" started-at="2020-08-23T11:22:47Z" finished-at="2020-08-23T11:22:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[checkContentLength Test started.]]>
+            </line>
+            <line>
+              <![CDATA[checkContentLength Test passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.employeeapi.testCases.TC003_PUT_Update_Details@e25b2fe]" name="checkContentType" duration-ms="7" started-at="2020-08-23T11:22:47Z" finished-at="2020-08-23T11:22:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[checkContentType Test started.]]>
+            </line>
+            <line>
+              <![CDATA[checkContentType Test passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponseBody()[pri:0, instance:com.employeeapi.testCases.TC003_PUT_Update_Details@e25b2fe]" name="checkResponseBody" duration-ms="3" started-at="2020-08-23T11:22:47Z" finished-at="2020-08-23T11:22:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[checkResponseBody Test started.]]>
+            </line>
+            <line>
+              <![CDATA[checkResponseBody Test passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.employeeapi.testCases.TC003_PUT_Update_Details@e25b2fe]" name="checkResponseTime" duration-ms="2" started-at="2020-08-23T11:22:47Z" finished-at="2020-08-23T11:22:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[checkResponseTime Test started.]]>
+            </line>
+            <line>
+              <![CDATA[checkResponseTime Test passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.employeeapi.testCases.TC003_PUT_Update_Details@e25b2fe]" name="checkStatusCode" duration-ms="4" started-at="2020-08-23T11:22:47Z" finished-at="2020-08-23T11:22:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[checkStatusCode Test started.]]>
+            </line>
+            <line>
+              <![CDATA[checkStatusCode Test passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:0, instance:com.employeeapi.testCases.TC003_PUT_Update_Details@e25b2fe]" name="checkStatusLine" duration-ms="3" started-at="2020-08-23T11:22:47Z" finished-at="2020-08-23T11:22:47Z">
+          <reporter-output>
+            <line>
+              <![CDATA[checkStatusLine Test started.]]>
+            </line>
+            <line>
+              <![CDATA[checkStatusLine Test passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.employeeapi.testCases.TC003_PUT_Update_Details@e25b2fe]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-08-23T11:22:47Z" finished-at="2020-08-23T11:22:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.employeeapi.testCases.TC003_PUT_Update_Details -->
+      <class name="com.employeeapi.testCases.TC005_DELETE_Employee_ByID">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.employeeapi.testCases.TC005_DELETE_Employee_ByID@754ba872]" name="setup" is-config="true" duration-ms="3" started-at="2020-08-23T11:22:47Z" finished-at="2020-08-23T11:22:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getDeleteEmployeeByID()[pri:0, instance:com.employeeapi.testCases.TC005_DELETE_Employee_ByID@754ba872]" name="getDeleteEmployeeByID" is-config="true" duration-ms="3899" started-at="2020-08-23T11:22:47Z" finished-at="2020-08-23T11:22:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDeleteEmployeeByID -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:com.employeeapi.testCases.TC005_DELETE_Employee_ByID@754ba872]" name="checkContentLength" duration-ms="5" started-at="2020-08-23T11:22:51Z" finished-at="2020-08-23T11:22:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[checkContentLength Test started.]]>
+            </line>
+            <line>
+              <![CDATA[checkContentLength Test passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.employeeapi.testCases.TC005_DELETE_Employee_ByID@754ba872]" name="checkContentType" duration-ms="8" started-at="2020-08-23T11:22:51Z" finished-at="2020-08-23T11:22:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[checkContentType Test started.]]>
+            </line>
+            <line>
+              <![CDATA[checkContentType Test passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponseBody()[pri:0, instance:com.employeeapi.testCases.TC005_DELETE_Employee_ByID@754ba872]" name="checkResponseBody" duration-ms="2" started-at="2020-08-23T11:22:51Z" finished-at="2020-08-23T11:22:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[checkResponseBody Test started.]]>
+            </line>
+            <line>
+              <![CDATA[checkResponseBody Test passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.employeeapi.testCases.TC005_DELETE_Employee_ByID@754ba872]" name="checkStatusCode" duration-ms="3" started-at="2020-08-23T11:22:51Z" finished-at="2020-08-23T11:22:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[checkStatusCode Test started.]]>
+            </line>
+            <line>
+              <![CDATA[checkStatusCode Test passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:0, instance:com.employeeapi.testCases.TC005_DELETE_Employee_ByID@754ba872]" name="checkStatusLine" duration-ms="6" started-at="2020-08-23T11:22:51Z" finished-at="2020-08-23T11:22:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[checkStatusLine Test started.]]>
+            </line>
+            <line>
+              <![CDATA[checkStatusLine Test passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method status="PASS" signature="getResponseTime()[pri:0, instance:com.employeeapi.testCases.TC005_DELETE_Employee_ByID@754ba872]" name="getResponseTime" duration-ms="3" started-at="2020-08-23T11:22:51Z" finished-at="2020-08-23T11:22:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[getResponseTime Test started.]]>
+            </line>
+            <line>
+              <![CDATA[getResponseTime Test passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getResponseTime -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.employeeapi.testCases.TC005_DELETE_Employee_ByID@754ba872]" name="tearDown" is-config="true" duration-ms="2" started-at="2020-08-23T11:22:51Z" finished-at="2020-08-23T11:22:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.employeeapi.testCases.TC005_DELETE_Employee_ByID -->
+      <class name="com.employeeapi.testCases.TC003_POST_Add_Details">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.employeeapi.testCases.TC003_POST_Add_Details@204f30ec]" name="setup" is-config="true" duration-ms="3" started-at="2020-08-23T11:22:41Z" finished-at="2020-08-23T11:22:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="postDetails()[pri:0, instance:com.employeeapi.testCases.TC003_POST_Add_Details@204f30ec]" name="postDetails" is-config="true" duration-ms="3064" started-at="2020-08-23T11:22:41Z" finished-at="2020-08-23T11:22:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postDetails -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:com.employeeapi.testCases.TC003_POST_Add_Details@204f30ec]" name="checkContentLength" duration-ms="13" started-at="2020-08-23T11:22:44Z" finished-at="2020-08-23T11:22:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[checkContentLength Test started.]]>
+            </line>
+            <line>
+              <![CDATA[checkContentLength Test passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.employeeapi.testCases.TC003_POST_Add_Details@204f30ec]" name="checkContentType" duration-ms="6" started-at="2020-08-23T11:22:44Z" finished-at="2020-08-23T11:22:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[checkContentType Test started.]]>
+            </line>
+            <line>
+              <![CDATA[checkContentType Test passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponseBody()[pri:0, instance:com.employeeapi.testCases.TC003_POST_Add_Details@204f30ec]" name="checkResponseBody" duration-ms="7" started-at="2020-08-23T11:22:44Z" finished-at="2020-08-23T11:22:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[checkResponseBody Test started.]]>
+            </line>
+            <line>
+              <![CDATA[checkResponseBody Test passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.employeeapi.testCases.TC003_POST_Add_Details@204f30ec]" name="checkResponseTime" duration-ms="2" started-at="2020-08-23T11:22:44Z" finished-at="2020-08-23T11:22:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[checkResponseTime Test started.]]>
+            </line>
+            <line>
+              <![CDATA[checkResponseTime Test passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.employeeapi.testCases.TC003_POST_Add_Details@204f30ec]" name="checkStatusCode" duration-ms="5" started-at="2020-08-23T11:22:44Z" finished-at="2020-08-23T11:22:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[checkStatusCode Test started.]]>
+            </line>
+            <line>
+              <![CDATA[checkStatusCode Test passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:0, instance:com.employeeapi.testCases.TC003_POST_Add_Details@204f30ec]" name="checkStatusLine" duration-ms="2" started-at="2020-08-23T11:22:44Z" finished-at="2020-08-23T11:22:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[checkStatusLine Test started.]]>
+            </line>
+            <line>
+              <![CDATA[checkStatusLine Test passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.employeeapi.testCases.TC003_POST_Add_Details@204f30ec]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-08-23T11:22:44Z" finished-at="2020-08-23T11:22:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.employeeapi.testCases.TC003_POST_Add_Details -->
+      <class name="com.employeeapi.testCases.TC001_Get_All_Employees">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@4667ae56]" name="setup" is-config="true" duration-ms="35" started-at="2020-08-23T11:22:35Z" finished-at="2020-08-23T11:22:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getAllEmployees()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@4667ae56]" name="getAllEmployees" is-config="true" duration-ms="1903" started-at="2020-08-23T11:22:35Z" finished-at="2020-08-23T11:22:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllEmployees -->
+        <test-method status="PASS" signature="checkContentEncoding()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@4667ae56]" name="checkContentEncoding" duration-ms="35" started-at="2020-08-23T11:22:37Z" finished-at="2020-08-23T11:22:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[checkContentEncoding Test started.]]>
+            </line>
+            <line>
+              <![CDATA[checkContentEncoding Test passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkContentEncoding -->
+        <test-method status="FAIL" signature="checkContentLength()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@4667ae56]" name="checkContentLength" duration-ms="10" started-at="2020-08-23T11:22:37Z" finished-at="2020-08-23T11:22:37Z">
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: null
+at java.lang.Integer.parseInt(Integer.java:542)
+at java.lang.Integer.parseInt(Integer.java:615)
+at com.employeeapi.testCases.TC001_Get_All_Employees.checkContentLength(TC001_Get_All_Employees.java:91)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+            <line>
+              <![CDATA[checkContentLength Test started.]]>
+            </line>
+            <line>
+              <![CDATA[checkContentLength Test *Failed* java.lang.NumberFormatException: null]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@4667ae56]" name="checkContentType" duration-ms="12" started-at="2020-08-23T11:22:37Z" finished-at="2020-08-23T11:22:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[checkContentType Test started.]]>
+            </line>
+            <line>
+              <![CDATA[checkContentType Test passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkCookies()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@4667ae56]" name="checkCookies" duration-ms="21" started-at="2020-08-23T11:22:37Z" finished-at="2020-08-23T11:22:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[checkCookies Test started.]]>
+            </line>
+            <line>
+              <![CDATA[checkCookies Test passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkCookies -->
+        <test-method status="PASS" signature="checkResponseBody()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@4667ae56]" name="checkResponseBody" duration-ms="63" started-at="2020-08-23T11:22:37Z" finished-at="2020-08-23T11:22:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[checkResponseBody Test started.]]>
+            </line>
+            <line>
+              <![CDATA[checkResponseBody Test passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method status="PASS" signature="checkResponseTime()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@4667ae56]" name="checkResponseTime" duration-ms="17" started-at="2020-08-23T11:22:37Z" finished-at="2020-08-23T11:22:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[checkResponseTime Test started.]]>
+            </line>
+            <line>
+              <![CDATA[checkResponseTime Test passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method status="PASS" signature="checkServerType()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@4667ae56]" name="checkServerType" duration-ms="9" started-at="2020-08-23T11:22:38Z" finished-at="2020-08-23T11:22:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[checkServerType Test started.]]>
+            </line>
+            <line>
+              <![CDATA[checkServerType Test passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkServerType -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@4667ae56]" name="checkStatusCode" duration-ms="9" started-at="2020-08-23T11:22:38Z" finished-at="2020-08-23T11:22:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[checkStatusCode Test started.]]>
+            </line>
+            <line>
+              <![CDATA[checkStatusCode Test passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@4667ae56]" name="checkStatusLine" duration-ms="8" started-at="2020-08-23T11:22:38Z" finished-at="2020-08-23T11:22:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[checkStatusLine Test started.]]>
+            </line>
+            <line>
+              <![CDATA[checkStatusLine Test passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.employeeapi.testCases.TC001_Get_All_Employees@4667ae56]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-08-23T11:22:38Z" finished-at="2020-08-23T11:22:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.employeeapi.testCases.TC001_Get_All_Employees -->
+      <class name="com.employeeapi.testCases.TC002_Get_All_EmployeesByID">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.employeeapi.testCases.TC002_Get_All_EmployeesByID@77cd7a0]" name="setup" is-config="true" duration-ms="7" started-at="2020-08-23T11:22:38Z" finished-at="2020-08-23T11:22:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getAllEmployeesByID()[pri:0, instance:com.employeeapi.testCases.TC002_Get_All_EmployeesByID@77cd7a0]" name="getAllEmployeesByID" is-config="true" duration-ms="3031" started-at="2020-08-23T11:22:38Z" finished-at="2020-08-23T11:22:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllEmployeesByID -->
+        <test-method status="PASS" signature="checkContentLength()[pri:0, instance:com.employeeapi.testCases.TC002_Get_All_EmployeesByID@77cd7a0]" name="checkContentLength" duration-ms="11" started-at="2020-08-23T11:22:41Z" finished-at="2020-08-23T11:22:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[checkContentLength Test started.]]>
+            </line>
+            <line>
+              <![CDATA[checkContentLength Test passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkContentLength -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.employeeapi.testCases.TC002_Get_All_EmployeesByID@77cd7a0]" name="checkContentType" duration-ms="10" started-at="2020-08-23T11:22:41Z" finished-at="2020-08-23T11:22:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[checkContentType Test started.]]>
+            </line>
+            <line>
+              <![CDATA[checkContentType Test passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkResponseBody()[pri:0, instance:com.employeeapi.testCases.TC002_Get_All_EmployeesByID@77cd7a0]" name="checkResponseBody" duration-ms="8" started-at="2020-08-23T11:22:41Z" finished-at="2020-08-23T11:22:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[checkResponseBody Test started.]]>
+            </line>
+            <line>
+              <![CDATA[checkResponseBody Test passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.employeeapi.testCases.TC002_Get_All_EmployeesByID@77cd7a0]" name="checkStatusCode" duration-ms="4" started-at="2020-08-23T11:22:41Z" finished-at="2020-08-23T11:22:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[checkStatusCode Test started.]]>
+            </line>
+            <line>
+              <![CDATA[checkStatusCode Test passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:0, instance:com.employeeapi.testCases.TC002_Get_All_EmployeesByID@77cd7a0]" name="checkStatusLine" duration-ms="4" started-at="2020-08-23T11:22:41Z" finished-at="2020-08-23T11:22:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[checkStatusLine Test started.]]>
+            </line>
+            <line>
+              <![CDATA[checkStatusLine Test passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method status="PASS" signature="getResponseTime()[pri:0, instance:com.employeeapi.testCases.TC002_Get_All_EmployeesByID@77cd7a0]" name="getResponseTime" duration-ms="3" started-at="2020-08-23T11:22:41Z" finished-at="2020-08-23T11:22:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[getResponseTime Test started.]]>
+            </line>
+            <line>
+              <![CDATA[getResponseTime Test passed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getResponseTime -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.employeeapi.testCases.TC002_Get_All_EmployeesByID@77cd7a0]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-08-23T11:22:41Z" finished-at="2020-08-23T11:22:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.employeeapi.testCases.TC002_Get_All_EmployeesByID -->
+    </test> <!-- RestAssured TestCases -->
+  </suite> <!-- RestAssured Suite -->
+</testng-results>

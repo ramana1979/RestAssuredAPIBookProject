@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RestAssured Suite">
+	<listeners>
+		<listener class-name="com.employeeapi.Utilities.ExtentListener" />
+	</listeners>
+	<test thread-count="5" name="RestAssured TestCases">
+		<classes>
+			<class name="com.employeeapi.testCases.TC001_Get_All_Employees" />
+			<class name="com.employeeapi.testCases.TC002_Get_All_EmployeesByID" />
+			<class name="com.employeeapi.testCases.TC003_POST_Add_Details" />
+			<class name="com.employeeapi.testCases.TC003_PUT_Update_Details" />
+			<class name="com.employeeapi.testCases.TC005_DELETE_Employee_ByID" />
+		</classes>
+	</test>
+</suite>

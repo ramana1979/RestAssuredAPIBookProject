@@ -1,0 +1,550 @@
+<html>
+<head>
+<title>TestNG:  RestAssured TestCases</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>RestAssured TestCases</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>32/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Aug 23 16:52:35 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>15 seconds (15746 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.employeeapi.testCases.TC001_Get_All_Employees.checkContentLength()'><b>checkContentLength</b><br>Test class: com.employeeapi.testCases.TC001_Get_All_Employees<br/>
+<a href="#Output-1971152916" onClick='toggleBox("Output-1971152916", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1971152916" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1971152916">
+checkContentLength Test started.<br/>
+checkContentLength Test *Failed* java.lang.NumberFormatException: null<br/>
+</div>
+</td>
+<td><div><pre>java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:542)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at com.employeeapi.testCases.TC001_Get_All_Employees.checkContentLength(TC001_Get_All_Employees.java:91)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1971152916", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1971152916'><pre>java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:542)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at com.employeeapi.testCases.TC001_Get_All_Employees.checkContentLength(TC001_Get_All_Employees.java:91)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.employeeapi.testCases.TC001_Get_All_Employees@4667ae56</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.employeeapi.testCases.TC001_Get_All_Employees.checkContentEncoding()'><b>checkContentEncoding</b><br>Test class: com.employeeapi.testCases.TC001_Get_All_Employees<br/>
+<a href="#Output-2144067911" onClick='toggleBox("Output-2144067911", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2144067911" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2144067911">
+checkContentEncoding Test started.<br/>
+checkContentEncoding Test passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.employeeapi.testCases.TC001_Get_All_Employees@4667ae56</td></tr>
+<tr>
+<td title='com.employeeapi.testCases.TC002_Get_All_EmployeesByID.checkContentLength()'><b>checkContentLength</b><br>Test class: com.employeeapi.testCases.TC002_Get_All_EmployeesByID<br/>
+<a href="#Output-938613108" onClick='toggleBox("Output-938613108", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-938613108" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-938613108">
+checkContentLength Test started.<br/>
+checkContentLength Test passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.employeeapi.testCases.TC002_Get_All_EmployeesByID@77cd7a0</td></tr>
+<tr>
+<td title='com.employeeapi.testCases.TC003_POST_Add_Details.checkContentLength()'><b>checkContentLength</b><br>Test class: com.employeeapi.testCases.TC003_POST_Add_Details<br/>
+<a href="#Output-691779749" onClick='toggleBox("Output-691779749", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-691779749" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-691779749">
+checkContentLength Test started.<br/>
+checkContentLength Test passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.employeeapi.testCases.TC003_POST_Add_Details@204f30ec</td></tr>
+<tr>
+<td title='com.employeeapi.testCases.TC003_PUT_Update_Details.checkContentLength()'><b>checkContentLength</b><br>Test class: com.employeeapi.testCases.TC003_PUT_Update_Details<br/>
+<a href="#Output-1997357673" onClick='toggleBox("Output-1997357673", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1997357673" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1997357673">
+checkContentLength Test started.<br/>
+checkContentLength Test passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.employeeapi.testCases.TC003_PUT_Update_Details@e25b2fe</td></tr>
+<tr>
+<td title='com.employeeapi.testCases.TC005_DELETE_Employee_ByID.checkContentLength()'><b>checkContentLength</b><br>Test class: com.employeeapi.testCases.TC005_DELETE_Employee_ByID<br/>
+<a href="#Output-465233746" onClick='toggleBox("Output-465233746", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-465233746" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-465233746">
+checkContentLength Test started.<br/>
+checkContentLength Test passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.employeeapi.testCases.TC005_DELETE_Employee_ByID@754ba872</td></tr>
+<tr>
+<td title='com.employeeapi.testCases.TC001_Get_All_Employees.checkContentType()'><b>checkContentType</b><br>Test class: com.employeeapi.testCases.TC001_Get_All_Employees<br/>
+<a href="#Output-265348534" onClick='toggleBox("Output-265348534", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-265348534" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-265348534">
+checkContentType Test started.<br/>
+checkContentType Test passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.employeeapi.testCases.TC001_Get_All_Employees@4667ae56</td></tr>
+<tr>
+<td title='com.employeeapi.testCases.TC002_Get_All_EmployeesByID.checkContentType()'><b>checkContentType</b><br>Test class: com.employeeapi.testCases.TC002_Get_All_EmployeesByID<br/>
+<a href="#Output-1598898814" onClick='toggleBox("Output-1598898814", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1598898814" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1598898814">
+checkContentType Test started.<br/>
+checkContentType Test passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.employeeapi.testCases.TC002_Get_All_EmployeesByID@77cd7a0</td></tr>
+<tr>
+<td title='com.employeeapi.testCases.TC003_POST_Add_Details.checkContentType()'><b>checkContentType</b><br>Test class: com.employeeapi.testCases.TC003_POST_Add_Details<br/>
+<a href="#Output-1999664216" onClick='toggleBox("Output-1999664216", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1999664216" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1999664216">
+checkContentType Test started.<br/>
+checkContentType Test passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.employeeapi.testCases.TC003_POST_Add_Details@204f30ec</td></tr>
+<tr>
+<td title='com.employeeapi.testCases.TC003_PUT_Update_Details.checkContentType()'><b>checkContentType</b><br>Test class: com.employeeapi.testCases.TC003_PUT_Update_Details<br/>
+<a href="#Output-1250603112" onClick='toggleBox("Output-1250603112", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1250603112" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1250603112">
+checkContentType Test started.<br/>
+checkContentType Test passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.employeeapi.testCases.TC003_PUT_Update_Details@e25b2fe</td></tr>
+<tr>
+<td title='com.employeeapi.testCases.TC005_DELETE_Employee_ByID.checkContentType()'><b>checkContentType</b><br>Test class: com.employeeapi.testCases.TC005_DELETE_Employee_ByID<br/>
+<a href="#Output-1175154004" onClick='toggleBox("Output-1175154004", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1175154004" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1175154004">
+checkContentType Test started.<br/>
+checkContentType Test passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.employeeapi.testCases.TC005_DELETE_Employee_ByID@754ba872</td></tr>
+<tr>
+<td title='com.employeeapi.testCases.TC001_Get_All_Employees.checkCookies()'><b>checkCookies</b><br>Test class: com.employeeapi.testCases.TC001_Get_All_Employees<br/>
+<a href="#Output-1324173038" onClick='toggleBox("Output-1324173038", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1324173038" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1324173038">
+checkCookies Test started.<br/>
+checkCookies Test passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.employeeapi.testCases.TC001_Get_All_Employees@4667ae56</td></tr>
+<tr>
+<td title='com.employeeapi.testCases.TC001_Get_All_Employees.checkResponseBody()'><b>checkResponseBody</b><br>Test class: com.employeeapi.testCases.TC001_Get_All_Employees<br/>
+<a href="#Output-917568725" onClick='toggleBox("Output-917568725", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-917568725" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-917568725">
+checkResponseBody Test started.<br/>
+checkResponseBody Test passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.employeeapi.testCases.TC001_Get_All_Employees@4667ae56</td></tr>
+<tr>
+<td title='com.employeeapi.testCases.TC002_Get_All_EmployeesByID.checkResponseBody()'><b>checkResponseBody</b><br>Test class: com.employeeapi.testCases.TC002_Get_All_EmployeesByID<br/>
+<a href="#Output-1733056574" onClick='toggleBox("Output-1733056574", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1733056574" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1733056574">
+checkResponseBody Test started.<br/>
+checkResponseBody Test passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.employeeapi.testCases.TC002_Get_All_EmployeesByID@77cd7a0</td></tr>
+<tr>
+<td title='com.employeeapi.testCases.TC003_POST_Add_Details.checkResponseBody()'><b>checkResponseBody</b><br>Test class: com.employeeapi.testCases.TC003_POST_Add_Details<br/>
+<a href="#Output-532677950" onClick='toggleBox("Output-532677950", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-532677950" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-532677950">
+checkResponseBody Test started.<br/>
+checkResponseBody Test passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.employeeapi.testCases.TC003_POST_Add_Details@204f30ec</td></tr>
+<tr>
+<td title='com.employeeapi.testCases.TC003_PUT_Update_Details.checkResponseBody()'><b>checkResponseBody</b><br>Test class: com.employeeapi.testCases.TC003_PUT_Update_Details<br/>
+<a href="#Output-26357357" onClick='toggleBox("Output-26357357", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-26357357" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-26357357">
+checkResponseBody Test started.<br/>
+checkResponseBody Test passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.employeeapi.testCases.TC003_PUT_Update_Details@e25b2fe</td></tr>
+<tr>
+<td title='com.employeeapi.testCases.TC005_DELETE_Employee_ByID.checkResponseBody()'><b>checkResponseBody</b><br>Test class: com.employeeapi.testCases.TC005_DELETE_Employee_ByID<br/>
+<a href="#Output-1559788797" onClick='toggleBox("Output-1559788797", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1559788797" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1559788797">
+checkResponseBody Test started.<br/>
+checkResponseBody Test passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.employeeapi.testCases.TC005_DELETE_Employee_ByID@754ba872</td></tr>
+<tr>
+<td title='com.employeeapi.testCases.TC001_Get_All_Employees.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.employeeapi.testCases.TC001_Get_All_Employees<br/>
+<a href="#Output-1599674462" onClick='toggleBox("Output-1599674462", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1599674462" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1599674462">
+checkResponseTime Test started.<br/>
+checkResponseTime Test passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.employeeapi.testCases.TC001_Get_All_Employees@4667ae56</td></tr>
+<tr>
+<td title='com.employeeapi.testCases.TC003_POST_Add_Details.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.employeeapi.testCases.TC003_POST_Add_Details<br/>
+<a href="#Output-688593710" onClick='toggleBox("Output-688593710", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-688593710" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-688593710">
+checkResponseTime Test started.<br/>
+checkResponseTime Test passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.employeeapi.testCases.TC003_POST_Add_Details@204f30ec</td></tr>
+<tr>
+<td title='com.employeeapi.testCases.TC003_PUT_Update_Details.checkResponseTime()'><b>checkResponseTime</b><br>Test class: com.employeeapi.testCases.TC003_PUT_Update_Details<br/>
+<a href="#Output-1990733619" onClick='toggleBox("Output-1990733619", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1990733619" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1990733619">
+checkResponseTime Test started.<br/>
+checkResponseTime Test passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.employeeapi.testCases.TC003_PUT_Update_Details@e25b2fe</td></tr>
+<tr>
+<td title='com.employeeapi.testCases.TC001_Get_All_Employees.checkServerType()'><b>checkServerType</b><br>Test class: com.employeeapi.testCases.TC001_Get_All_Employees<br/>
+<a href="#Output-1623060829" onClick='toggleBox("Output-1623060829", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1623060829" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1623060829">
+checkServerType Test started.<br/>
+checkServerType Test passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.employeeapi.testCases.TC001_Get_All_Employees@4667ae56</td></tr>
+<tr>
+<td title='com.employeeapi.testCases.TC001_Get_All_Employees.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.employeeapi.testCases.TC001_Get_All_Employees<br/>
+<a href="#Output-1205483858" onClick='toggleBox("Output-1205483858", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1205483858" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1205483858">
+checkStatusCode Test started.<br/>
+checkStatusCode Test passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.employeeapi.testCases.TC001_Get_All_Employees@4667ae56</td></tr>
+<tr>
+<td title='com.employeeapi.testCases.TC002_Get_All_EmployeesByID.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.employeeapi.testCases.TC002_Get_All_EmployeesByID<br/>
+<a href="#Output-636959006" onClick='toggleBox("Output-636959006", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-636959006" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-636959006">
+checkStatusCode Test started.<br/>
+checkStatusCode Test passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.employeeapi.testCases.TC002_Get_All_EmployeesByID@77cd7a0</td></tr>
+<tr>
+<td title='com.employeeapi.testCases.TC003_POST_Add_Details.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.employeeapi.testCases.TC003_POST_Add_Details<br/>
+<a href="#Output-1200048933" onClick='toggleBox("Output-1200048933", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1200048933" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1200048933">
+checkStatusCode Test started.<br/>
+checkStatusCode Test passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.employeeapi.testCases.TC003_POST_Add_Details@204f30ec</td></tr>
+<tr>
+<td title='com.employeeapi.testCases.TC003_PUT_Update_Details.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.employeeapi.testCases.TC003_PUT_Update_Details<br/>
+<a href="#Output-1806378373" onClick='toggleBox("Output-1806378373", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1806378373" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1806378373">
+checkStatusCode Test started.<br/>
+checkStatusCode Test passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.employeeapi.testCases.TC003_PUT_Update_Details@e25b2fe</td></tr>
+<tr>
+<td title='com.employeeapi.testCases.TC005_DELETE_Employee_ByID.checkStatusCode()'><b>checkStatusCode</b><br>Test class: com.employeeapi.testCases.TC005_DELETE_Employee_ByID<br/>
+<a href="#Output-1980194149" onClick='toggleBox("Output-1980194149", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1980194149" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1980194149">
+checkStatusCode Test started.<br/>
+checkStatusCode Test passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.employeeapi.testCases.TC005_DELETE_Employee_ByID@754ba872</td></tr>
+<tr>
+<td title='com.employeeapi.testCases.TC001_Get_All_Employees.checkStatusLine()'><b>checkStatusLine</b><br>Test class: com.employeeapi.testCases.TC001_Get_All_Employees<br/>
+<a href="#Output-681639276" onClick='toggleBox("Output-681639276", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-681639276" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-681639276">
+checkStatusLine Test started.<br/>
+checkStatusLine Test passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.employeeapi.testCases.TC001_Get_All_Employees@4667ae56</td></tr>
+<tr>
+<td title='com.employeeapi.testCases.TC002_Get_All_EmployeesByID.checkStatusLine()'><b>checkStatusLine</b><br>Test class: com.employeeapi.testCases.TC002_Get_All_EmployeesByID<br/>
+<a href="#Output-1059300256" onClick='toggleBox("Output-1059300256", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1059300256" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1059300256">
+checkStatusLine Test started.<br/>
+checkStatusLine Test passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.employeeapi.testCases.TC002_Get_All_EmployeesByID@77cd7a0</td></tr>
+<tr>
+<td title='com.employeeapi.testCases.TC003_POST_Add_Details.checkStatusLine()'><b>checkStatusLine</b><br>Test class: com.employeeapi.testCases.TC003_POST_Add_Details<br/>
+<a href="#Output-862025017" onClick='toggleBox("Output-862025017", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-862025017" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-862025017">
+checkStatusLine Test started.<br/>
+checkStatusLine Test passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.employeeapi.testCases.TC003_POST_Add_Details@204f30ec</td></tr>
+<tr>
+<td title='com.employeeapi.testCases.TC003_PUT_Update_Details.checkStatusLine()'><b>checkStatusLine</b><br>Test class: com.employeeapi.testCases.TC003_PUT_Update_Details<br/>
+<a href="#Output-1958592872" onClick='toggleBox("Output-1958592872", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1958592872" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1958592872">
+checkStatusLine Test started.<br/>
+checkStatusLine Test passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.employeeapi.testCases.TC003_PUT_Update_Details@e25b2fe</td></tr>
+<tr>
+<td title='com.employeeapi.testCases.TC005_DELETE_Employee_ByID.checkStatusLine()'><b>checkStatusLine</b><br>Test class: com.employeeapi.testCases.TC005_DELETE_Employee_ByID<br/>
+<a href="#Output-978035840" onClick='toggleBox("Output-978035840", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-978035840" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-978035840">
+checkStatusLine Test started.<br/>
+checkStatusLine Test passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.employeeapi.testCases.TC005_DELETE_Employee_ByID@754ba872</td></tr>
+<tr>
+<td title='com.employeeapi.testCases.TC002_Get_All_EmployeesByID.getResponseTime()'><b>getResponseTime</b><br>Test class: com.employeeapi.testCases.TC002_Get_All_EmployeesByID<br/>
+<a href="#Output-1521568953" onClick='toggleBox("Output-1521568953", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1521568953" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1521568953">
+getResponseTime Test started.<br/>
+getResponseTime Test passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.employeeapi.testCases.TC002_Get_All_EmployeesByID@77cd7a0</td></tr>
+<tr>
+<td title='com.employeeapi.testCases.TC005_DELETE_Employee_ByID.getResponseTime()'><b>getResponseTime</b><br>Test class: com.employeeapi.testCases.TC005_DELETE_Employee_ByID<br/>
+<a href="#Output-666312528" onClick='toggleBox("Output-666312528", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-666312528" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-666312528">
+getResponseTime Test started.<br/>
+getResponseTime Test passed.<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.employeeapi.testCases.TC005_DELETE_Employee_ByID@754ba872</td></tr>
+</table><p>
+</body>
+</html>
