@@ -15,6 +15,10 @@ import io.restassured.response.ResponseBody;
 
 public class TC001_Get_All_Employees extends TestBase {
 	
+	/**
+	 * Creata a request and response for API http://localhost:3000/posts/ and wiat for 3 seconds.
+	 * @throws InterruptedException
+	 */
 	@BeforeClass
 	void getAllEmployees() throws InterruptedException
 	{
@@ -24,6 +28,9 @@ public class TC001_Get_All_Employees extends TestBase {
 		response=httpRequest.request(Method.GET,"/posts");
 		Thread.sleep(3); 
 	}
+	/**
+	 * After sending request get response. Response body will be checking here. 
+	 */
 	@Test
 	void checkResponseBody()
 	{
@@ -32,6 +39,9 @@ public class TC001_Get_All_Employees extends TestBase {
 		logger.info("Response body "+responseBody);
 		Assert.assertTrue(responseBody!=null);
 	}
+	/**
+	 * After successful we get success code 200. Verifying code here.
+	 */
 	@Test
 	void checkStatusCode()
 	{
@@ -40,7 +50,10 @@ public class TC001_Get_All_Employees extends TestBase {
 		logger.info("Status "+status);
 		Assert.assertEquals(status, 200);
 	}
-	//@Test
+	/**
+	 * check and verifying response time. >2000 mil.seconds send warning msg.
+	 */
+	@Test
 	void checkResponseTime()
 	{
 		logger.info("*****************Check Response Time***********************");
@@ -50,6 +63,9 @@ public class TC001_Get_All_Employees extends TestBase {
 			logger.warn("Response time is greate than 2000");
 		Assert.assertTrue(responseTime<2000);
 	}
+	/**
+	 * Verifying status line will be like OK,Created,Updated etc.
+	 */
 	@Test
 	void checkStatusLine()
 	{
@@ -58,14 +74,18 @@ public class TC001_Get_All_Employees extends TestBase {
 		logger.info("Status Line "+statusLine);
 		Assert.assertEquals(statusLine, "HTTP/1.1 200 OK");
 	}
-	/*@Test
+	/**
+	 * Verifying content length
+	 */
+	@Test
 	void checkContentType()
 	{
 		logger.info("*******************Check the Content-Type body");
 		String content_type=response.header("Content-Type");
 		logger.info("Content Type "+content_type);
 		Assert.assertEquals(content_type, "application/json; charset=utf-8");
-	}*/
+	}
+	//Verifying server name of API
 	@Test
 	void checkServerType()
 	{
@@ -74,6 +94,7 @@ public class TC001_Get_All_Employees extends TestBase {
 		logger.info("Server name "+server);
 		Assert.assertEquals(server, null);
 	}
+	//Verifying content encoding for GET method as gzip
 	@Test
 	void checkContentEncoding()
 	{
@@ -92,6 +113,7 @@ public class TC001_Get_All_Employees extends TestBase {
 			logger.warn("Content length is less than 100");
 		Assert.assertTrue(Integer.parseInt(contentLength)>100);
 	}
+	//Verifying the cookie if we have.
 	@Test
 	void checkCookies()
 	{
